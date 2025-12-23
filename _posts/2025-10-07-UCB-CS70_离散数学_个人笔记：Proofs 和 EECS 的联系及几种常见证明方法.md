@@ -1,6 +1,6 @@
 ---
 title: "UCB-CS70_离散数学_个人笔记：Proofs 和 EECS 的联系及几种常见证明方法"
-excerpt_separator: "离散数学中Proofs 和 EECS 的联系及几种常见证明方法"
+excerpt: "离散数学中Proofs 和 EECS 的联系及几种常见证明方法"
 categories:
   - UCB-CS70 离散数学
 tags:

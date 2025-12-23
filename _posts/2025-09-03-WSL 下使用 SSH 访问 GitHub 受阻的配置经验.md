@@ -1,6 +1,6 @@
 ---
 title: "WSL 下使用 SSH 访问 GitHub 受阻的配置经验"
-excerpt_separator: "在某些网络环境下，直接通过 SSH 访问 GitHub 会受阻，比如 22 端口被屏蔽。这篇文章总结了我在 Windows + WSL 环境下，利用 **Clash Verge 的 TUN 模式** 配置 SSH 代理的经验。"
+excerpt: "在某些网络环境下，直接通过 SSH 访问 GitHub 会受阻，比如 22 端口被屏蔽。这篇文章总结了我在 Windows + WSL 环境下，利用 **Clash Verge 的 TUN 模式** 配置 SSH 代理的经验。"
 tags:
   - git
   - WSL
