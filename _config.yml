@@ -13,18 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Zeeh-Lin
-email: ZihanLin501@163.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Zeeh-Lin's Page
+description: Zeeh-Lin's personal blog
 github_username: Zeeh-Lin
 minimal_mistakes_skin: default
 search: true
+url: "https://Zeeh-Lin.github.io"
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  input: GFM # GitHub Flavored Markdown
+  hard_wrap: false
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
 # Outputting
@@ -58,34 +59,33 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Zeeh-Lin"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Undergraduate student at Anhui University, majoring in Integrated Circuit Design and Integrated Systems."
+  location : "Anhui, China"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:ZihanLin501@163.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/Zeeh-Lin"
+    - label: "Cnblogs"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.cnblogs.com/Zeeh-Lin"
 
 footer:
+  since: "2025"
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Email"
+      icon: "far fa-fw fa-envelope"
+      url: "mailto:ZihanLin501@163.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "Cnblogs"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.cnblogs.com/Zeeh-Lin"
 
 defaults:
   # _posts
@@ -94,11 +94,20 @@ defaults:
       type: posts
     values:
       layout: single
+      mathjax: true
+      toc: true
+      toc_sticky: true
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
+      show_date: true
+      enable_copy_code_button: true
+      header:
+        overlay_image: /assets/images/rod-long-unsplash.jpg
+        overlay_filter: 0.5
+        caption: "Photo by [**Rod Long**](https://unsplash.com/@rodlong?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [**Unsplash**](https://unsplash.com/photos/turquoise-ocean-waves-gently-crash-on-a-sandy-beach-YLMnqzvXyhU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
   # _pages
   - scope:
       path: "_pages"
