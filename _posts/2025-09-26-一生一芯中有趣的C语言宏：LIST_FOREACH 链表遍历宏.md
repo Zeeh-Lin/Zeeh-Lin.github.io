@@ -1,6 +1,6 @@
 ---
 title: "一生一芯中有趣的C语言宏：LIST_FOREACH 链表遍历宏"
-excerpt_separator: "记录了学习 “一生一芯” 时（更确切地说是学习 “Learn C The Hard Way” 时）遇到的 LIST_FOREACH 链表遍历宏。该宏的精髓在于使用 V 和 _node 双指针机制，以确保即使在复杂场景下（如用户误改指针），循环的健壮性和遍历的正确性也不会被破坏。"
+excerpt: "记录了学习 “一生一芯” 时（更确切地说是学习 “Learn C The Hard Way” 时）遇到的 LIST_FOREACH 链表遍历宏。该宏的精髓在于使用 V 和 _node 双指针机制，以确保即使在复杂场景下（如用户误改指针），循环的健壮性和遍历的正确性也不会被破坏。"
 categories:
   - 一生一芯中有趣的C语言宏
 tags:

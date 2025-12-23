@@ -1,6 +1,6 @@
 ---
 title: "auipc指令在NEMU中的执行过程"
-excerpt_separator: "auipc指令在NEMU中的执行过程"
+excerpt: "auipc指令在NEMU中的执行过程"
 categories:
   - 一生一芯学习笔记
 tags:
